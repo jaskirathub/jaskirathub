@@ -1,0 +1,15 @@
+>>> import scipy.stats
+>>> scipy.stats.norm(0, 1)
+<scipy.stats.distributions.rv_frozen object at 0x928352c>
+>>> scipy.stats.norm(0, 1).pdf(0)
+0.3989422804014327
+>>> scipy.stats.norm(0, 1).cdf(0)
+0.5
+>>> scipy.stats.norm(100, 12)
+<scipy.stats.distributions.rv_frozen object at 0x928352c>
+>>> scipy.stats.norm(100, 12).pdf(98)
+0.032786643008494994
+>>> scipy.stats.norm(100, 12).cdf(98)
+0.43381616738909634
+>>> scipy.stats.norm(100, 12).cdf(100)
+0.5
